@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Backups</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+<h1>AI Backups</h1>
+<p>A personal backup workflow maintained by <a href="https://github.com/MRDK80">MRDK80</a>, for preserving AI-assisted development work and continuing it in other environments.</p>
+<h2>How it works</h2>
+<p>Local scripts prepare backups of Codex session data and manually downloaded Claude account exports. Archives are encrypted locally with age before being uploaded to the owner's Google Drive using rclone.</p>
+<p>The Google OAuth client is a Desktop application for the owner's personal use. It is not a public backup service and does not collect other people's Google credentials.</p>
+<h2>Google Drive access</h2>
+<p>The workflow requests the drive.file permission to create and manage its backup files. It does not request full access to all files in Google Drive. Authentication takes place through Google.</p>
+<h2>Privacy and recovery</h2>
+<p>This website contains documentation only: no backup archives, authentication tokens or encryption keys. The owner must keep recovery keys separately and check that backups can be restored.</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+<h2>Contact</h2>
+<p>For questions, use <a href="https://github.com/MRDK80/ai-backups-site/issues">the project's issue tracker</a>. Do not post private data, credentials or backup contents.</p>
+<footer>AI Backups &middot; Personal-use project</footer>
+</main></body>
+</html>

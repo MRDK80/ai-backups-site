@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy - AI Backups</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+<p><a href="index.html">AI Backups home</a></p>
+<h1>Privacy policy</h1>
+<p>Last updated: October 31, 2026.</p>
+<h2>Purpose and operator</h2>
+<p>AI Backups is a personal backup workflow operated by GitHub user MRDK80. It uses local scripts, age encryption and rclone to preserve the owner's development data. It is not offered as a service for other users.</p>
+<h2>Data processed</h2>
+<p>Locally processed data can include Codex session logs, configuration, instructions and skills, and manually exported Claude conversations, project documents, memory and account metadata. These files may contain personal or confidential information.</p>
+<p>The Google Drive integration requests drive.file access. It creates, lists, reads and manages files available to the application under that permission, including backup file names, sizes, timestamps and integrity information, for backup and recovery operations.</p>
+<h2>Storage and credentials</h2>
+<p>Backup archive contents are encrypted on the owner's computer before upload to Google Drive. Archive filenames, sizes and other storage metadata are not concealed by this file encryption. Local originals and working copies may remain unencrypted and are protected by local filesystem permissions.</p>
+<p>Google OAuth credentials and tokens are stored locally by rclone. Recovery keys are managed separately by the owner. This documentation site does not receive credentials, tokens, recovery keys or backup contents.</p>
+<h2>Use and sharing</h2>
+<p>Google user data is used only for the owner's backup, integrity checking and recovery workflow. The operator does not sell this data, use it for advertising or use it to train generalized AI models. Encrypted backups and associated metadata are transmitted to Google Drive for storage. No additional third-party access is intentionally granted by this workflow.</p>
+<h2>Retention and control</h2>
+<p>There is no fixed automatic retention period in the current setup. The owner controls deletion of local and remote backups and any later retention configuration. Deleting a local backup does not automatically delete the remote copy. Drive trash and provider retention behavior may apply.</p>
+<p>The owner can revoke the application's access in Google Account permissions. Revoking authorization does not itself delete existing backups. Copies, including recovery keys, must be managed separately.</p>
+<h2>This website</h2>
+<p>This static documentation site is intended for hosting on GitHub Pages. It has no operator-added analytics, advertising or tracking scripts. GitHub may process technical request information under its own privacy statement. Google processes Drive and authorization data under its own policies.</p>
+<h2>Contact and changes</h2>
+<p>Questions or corrections can be submitted through <a href="https://github.com/MRDK80/ai-backups-site/issues">the public issue tracker</a>. Do not include private information or secrets. This policy will be updated if the workflow's data practices change.</p>
+</main></body>
+</html>
